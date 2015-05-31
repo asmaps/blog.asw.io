@@ -13,6 +13,8 @@ tagline: Supporting tagline
 <div>
 {{ post.content | truncatewords:35 }}
 </div>
+<div>
+</div>
 {% if forloop.last != true %}
 <hr>
 {% endif %}
