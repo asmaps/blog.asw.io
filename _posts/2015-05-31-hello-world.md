@@ -7,4 +7,4 @@ tags: []
 ---
 {% include JB/setup %}
 
-If this appears on the [blog](blog.asw.io) it seems to work.
+If this appears on the [blog](http://blog.asw.io) it seems to work.
