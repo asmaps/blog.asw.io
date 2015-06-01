@@ -10,7 +10,9 @@ tags: []
 ---- Work in progress ----
 
 ## Talks
+
 ### Monday
+
 #### 16.30h by Erik Romijn: A sincere tale of Django, developers and security
 
 * https://www.ponycheckup.com/
