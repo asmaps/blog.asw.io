@@ -10,8 +10,12 @@ tagline: Supporting tagline
 <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 <small><em><span>{{ post.date | date_to_string }}</span></em></small>
 </h2>
+<h2><small>{{ post.description }}</small></h2>
 <div>
-{{ post.content | truncatewords:35 }}
+{{ post.content | truncatewords:15 }}
+</div>
+<div style="text-align:right">
+<a href="{{ BASE_PATH }}{{ post.url }}">Read more...</a>
 </div>
 <div>
 </div>
