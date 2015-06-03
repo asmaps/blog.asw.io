@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DjangoCon Cardiff 2015i (WIP)"
+title: "DjangoCon Cardiff 2015"
 description: "Things to remember from DjangoCon in Cardiff"
 category: 
 tags: []
@@ -32,3 +32,7 @@ Notes from DjangoCon 2015 in Cardiff. Things I don't want to forget, try out, ..
 * Websockets are good, polling is bad :-) 
 * Try [Swampdragon](http://swampdragon.net/)
 * Example Code: git.io/vUWyn
+
+#### Lightning Talks
+
+* bit.do/lco-dj-signup to play around with telescopes
