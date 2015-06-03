@@ -4,10 +4,11 @@ $primary-color: color($primary-color-name, "base") !default;
 $primary-color-light: color($primary-color-name, "lighten-1") !default;
 $primary-color-dark: color($primary-color-name, "darken-1") !default;
 
-$secondary-color: color("light-blue", "lighten-1") !default;
+$secondary-color-name: "green";
+$secondary-color: color($secondary-color-name, "accent-3") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
+$link-color: color($secondary-color-name, "accent-4") !default;
 
 /*** Badges ***/
 $badge-bg-color: $secondary-color !default;

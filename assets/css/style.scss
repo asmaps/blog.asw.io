@@ -1,14 +1,6 @@
 ---
 ---
-@charset "UTF-8";
-
-// Mixins
-@import "components/prefixer";
-@import "components/mixins";
-@import "components/color";
-
-// Variables;
-@import "components/variables";
+@import "materialize";
 
 .mtop1 {
     margin-top: 1em;
@@ -17,6 +9,10 @@
 .light {
     font-size: 50%;
     color: #888;
+}
+
+.read-more {
+    @extend .mtop1, .right-align;
 }
 
 .footer, .nav {
@@ -37,6 +33,16 @@ h1, h2, h3, h4, h5, h6 {
 
     .light {
         color: $primary-color-light;
+    }
+
+    a {
+        color: $primary-color-dark; 
+        -webkit-transition: color 0.5s;
+        transition: color 0.5s;
+    }
+
+    a:hover {
+        color: $link-color; 
     }
 }
 
