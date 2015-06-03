@@ -1,0 +1,22 @@
+---
+layout: page
+title: ASW Blog
+---
+
+{% for post in site.posts %}
+<div class="section">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a> <span class="light">{{ post.date | date_to_string }}</span><br>
+        <span class="light">{{ post.description }}</small></h2>
+    <article class="z-depth-1">
+        <p>
+            {{ post.content | truncatewords:25 }}
+        </p>
+    </article>
+    <div class="mtop1 right-align">
+        <a href="{{ post.url }}" class="waves-effect waves-light btn-large"><i class="fa fa-angle-double-right right"></i>Read more</a>
+    </div>
+</div>
+{% if forloop.last != true %}
+<div class="divider"></div>
+{% endif %}
+{% endfor %}
