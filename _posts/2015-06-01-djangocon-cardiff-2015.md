@@ -2,8 +2,8 @@
 layout: post
 title: "DjangoCon Cardiff 2015"
 description: "Things to remember from DjangoCon in Cardiff"
-category: 
-tags: []
+category: Django
+tags: ["django", "djangocon", "cardiff", "conference"]
 ---
 
 ---- Work in progress ----
