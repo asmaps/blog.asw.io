@@ -11,7 +11,7 @@
         <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
-        <nav class="light-blue lighten-1" role="navigation">
+        <nav class="nav" role="navigation">
             <div class="nav-wrapper container"><a href="/" class="brand-logo">ASW Blog</a>
                 <ul class="right hide-on-med-and-down">
                     {% include nav.html %}
@@ -29,10 +29,20 @@
             </div>
         </div>
 
-        <footer class="page-footer orange">
+        <footer class="footer">
             <div class="container">
                 <div class="row">
                     <div class="col l3 offset-l3 s12">
+                        <h5 class="white-text">Blog</h5>
+                        <ul>
+                            <li><a class="white-text" href="/rss.xml"><i class="fa fa-rss"></i> RSS Feed</a></li>
+                            <li><a class="white-text" href="/atom.xml"><i class="fa fa-rss-square"></i> Atom Feed</a></li>
+                            <li><a class="white-text" href="/archive.html"><i class="fa fa-archive"></i> Archive</a></li>
+                            <li><a class="white-text" href="/categories.html"><i class="fa fa-bars"></i> Categories</a></li>
+                            <li><a class="white-text" href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
                         <h5 class="white-text">Connect</h5>
                         <ul>
                             <li><a class="white-text" href="https://twitter.com/asmaps" target="_blank"><i class="fa fa-twitter"></i> Twitter @asmaps</a></li>
@@ -40,8 +50,8 @@
                             <li><a class="white-text" href="https://www.asw.io/" target="_blank"><i class="fa fa-globe"></i> Homepage</a></li>
                         </ul>
                     </div>
-                    <div class="col l3 offset-l3 s12">
-                        <h5 class="white-text">Projects</h5>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">My Projects</h5>
                         <ul>
                             <li><a class="white-text" href="https://www.hopper.pw/" target="_blank">hopper.pw</a></li>
                             <li><a class="white-text" href="https://github.com/opendata-stuttgart/" target="_blank">OK Lab Stuttgart</a></li>
@@ -50,8 +60,13 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                <div class="container">
-                    Made by <a class="orange-text text-lighten-3" href="https://www.asw.io/">AS Webservices</a>
+                <div class="container clearfix">
+                    <div class="right">
+                        <a href="/imprint.html">Imprint</a> | <a href="/privacy.html">Privacy</a>
+                    </div>
+                    <div>
+                        Made by <a href="https://www.asw.io/">AS Webservices</a>
+                    </div>
                 </div>
             </div>
         </footer>

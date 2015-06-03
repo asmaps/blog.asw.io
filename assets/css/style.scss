@@ -19,6 +19,19 @@
     color: #888;
 }
 
+.footer, .nav {
+    @extend .#{$primary-color-name};
+}
+
+.footer-copyright {
+    @extend .#{$primary-color-name}.darken-2, .white-text;
+    padding: 1rem 0 1rem 0;
+
+    a {
+        @extend .#{$primary-color-name}-text.text-lighten-3;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: $primary-color-dark;
 

@@ -1,9 +1,13 @@
 <p>Published: {{ page.date | date_to_long_string }}</p>
 <p>Author: {{ site.author.name }}</p>
+{% if page.category %}
 <p>Category: <a href="/categories.hmtl#{{ page.category }}-ref">{{ page.category }}</a></p>
+{% endif %}
 
+{% if page.tags.size > 0 %}
 <div class="section">
 <p>Tags:</p>
 {% assign tags_list = page.tags %}
 {% include tags_list.html %}
 </div>
+{% endif %}
