@@ -5,7 +5,6 @@ description: "Things to remember from DjangoCon in Cardiff"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 ---- Work in progress ----
 

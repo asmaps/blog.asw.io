@@ -1,5 +1,14 @@
 ---
 ---
+@charset "UTF-8";
+
+// Mixins
+@import "components/prefixer";
+@import "components/mixins";
+@import "components/color";
+
+// Variables;
+@import "components/variables";
 
 .mtop1 {
     margin-top: 1em;
@@ -10,10 +19,49 @@
     color: #888;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: $primary-color-dark;
+
+    .light {
+        color: $primary-color-light;
+    }
+}
+
 article {
     padding: 2rem;
 
+    h5 {
+        $fontsize: $h6-fontsize*1.1; 
+        font-size: $fontsize;
+        line-height: $fontsize*1.1;
+        margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
+    }
+
+    h4 {
+        $fontsize: $h6-fontsize*1.2; 
+        font-size: $fontsize;
+        line-height: $fontsize*1.1;
+        margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
+    }
+
+    h3 {
+        $fontsize: $h6-fontsize*1.35; 
+        font-size: $fontsize;
+        line-height: $fontsize*1.1;
+        margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
+    }
+
     h2 {
-        font-size: 50%;
+        $fontsize: $h6-fontsize*1.5; 
+        font-size: $fontsize;
+        line-height: $fontsize*1.1;
+        margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
+    }
+
+    h1 {
+        $fontsize: $h6-fontsize*1.7; 
+        font-size: $fontsize;
+        line-height: $fontsize*1.1;
+        margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
     }
 }

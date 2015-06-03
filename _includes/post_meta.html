@@ -2,6 +2,8 @@
 <p>Author: {{ site.author.name }}</p>
 <p>Category: <a href="/categories.hmtl#{{ page.category }}-ref">{{ page.category }}</a></p>
 
-<p class="section">Tags:</p>
+<div class="section">
+<p>Tags:</p>
 {% assign tags_list = page.tags %}
 {% include tags_list.html %}
+</div>
