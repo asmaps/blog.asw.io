@@ -49,6 +49,15 @@ h1, h2, h3, h4, h5, h6 {
 article {
     padding: 2rem;
 
+    ul {
+        padding: 1em;
+        padding-left: 1.5em;
+
+        li {
+            list-style-type: square;
+        }
+    }
+
     h5 {
         $fontsize: $h6-fontsize*1.1; 
         font-size: $fontsize;
