@@ -35,7 +35,10 @@ tags: ["howto", "esp8266", "lua", "hardware", "flashing"]
 
 # Software requirements
 
+You will need `git`, `screen` and `python`. Please install them if you don't already have them.
+
 Check out the following repos (git):
+
 * https://github.com/4refr0nt/luatool.git
 * https://github.com/themadinventor/esptool.git
 * https://github.com/nodemcu/nodemcu-firmware.git
