@@ -31,3 +31,19 @@ tags: ["howto", "esp8266", "lua", "hardware", "flashing"]
   [AliExpress](http://www.aliexpress.com/item/Hot-Sale10pcs-40-Pin-1x40-Single-Row-Male-2-54-Breakable-Pin-Header-Connector-Strip-for/32254389928.html)
 * Prototype board
   [AliExpress](http://www.aliexpress.com/item/15Pcs-Baklite-Copper-Plated-Prototype-PCB-Board-Veroboard-7cmx5cm/32305273104.html)
+
+
+# Software requirements
+
+Check out the following repos (git):
+* https://github.com/4refr0nt/luatool.git
+* https://github.com/themadinventor/esptool.git
+* https://github.com/nodemcu/nodemcu-firmware.git
+
+# Connecting everything
+
+TBD
+
+# Flashing
+
+TBD
