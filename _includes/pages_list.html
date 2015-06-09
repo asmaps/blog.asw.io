@@ -1,8 +1,10 @@
+<div class="collection">
 {% for node in pages_list %}
 {% if page.url == node.url %}
-<li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+<a class="collection-item active" href="{{node.url}}">{{node.title}}</a>
 {% else %}
-<li><a href="{{node.url}}">{{node.title}}</a></li>
+<a class="collection-item" href="{{node.url}}">{{node.title}}</a>
 {% endif %}
 {% endfor %}
+</div>
 {% assign pages_list = nil %}

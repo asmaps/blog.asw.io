@@ -5,16 +5,12 @@ title: Tags
 
 <h2>Posts by tags</h2>
 
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% include tags_list.html %}
-</ul>
+{% assign tags_list = site.tags %}  
+{% include tags_list.html %}
 
 
 {% for tag in site.tags %} 
-  <h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
-  <ul>
+    <h3 id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
     {% assign pages_list = tag[1] %}  
     {% include pages_list.html %}
-  </ul>
 {% endfor %}

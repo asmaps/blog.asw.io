@@ -1,12 +1,12 @@
-<ul class="collection">
+<div class="collection">
     {% if categories_list.first[0] == null %}
     {% for cat in categories_list %} 
-    <li class="collection-item"><a href="/categories.html#{{ cat }}-ref">{{ cat }} <span class="badge">{{ site.categories[cat].size }}</span></a></li>
+    <a class="collection-item" href="/categories.html#{{ cat }}-ref">{{ cat }} <span class="badge">{{ site.categories[cat].size }}</span></a>
     {% endfor %}
     {% else %}
     {% for cat in categories_list %} 
-    <li class="collection-item"><a href="/categories.html#{{ cat[0] }}-ref">{{ cat[0] }} <span class="badge">{{ cat[1].size }}</span></a></li>
+    <a class="collection-item" href="/categories.html#{{ cat[0] }}-ref">{{ cat[0] }} <span class="badge">{{ cat[1].size }}</span></a>
     {% endfor %}
     {% endif %}
-</ul>
+</div>
 {% assign categories_list = nil %}
