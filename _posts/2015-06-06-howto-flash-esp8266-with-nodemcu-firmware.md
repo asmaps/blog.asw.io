@@ -15,6 +15,10 @@ tags: ["howto", "esp8266", "lua", "hardware", "flashing"]
 * 3.3V Converter e.g. LM1117
   [AliExpress](http://www.aliexpress.com/item/Free-Shipping-10pcs-LM1117T-LM1117-Low-Dropout-Voltage-Regulator-3-3V/668796323.html)
 
+## Recommended
+* 4.7 µF capacitors to buffer variations in power usage [AliExpress (set of a few different
+  sizes including 4.7µF)](http://www.aliexpress.com/item/7-value-60pcs-Electrolytic-capacitor-Assortment-Kit-4-7-1000uF/469949711.html)
+
 ## Optional but helpful and recommended
 * ESP-12 breakout board
   [AliExpress](http://www.aliexpress.com/item/10pcs-ESP8266-serial-WIFI-module-adapter-plate-Applies-to-ESP-07-ESP-08-ESP-12/32277240271.html)
@@ -36,6 +40,7 @@ tags: ["howto", "esp8266", "lua", "hardware", "flashing"]
   [AliExpress](http://www.aliexpress.com/item/Free-shppping-3200pin-1x40-Pin-2-54mm-Single-Row-Female-Pin-Header-Connector-80PCS-LOT/32287336973.html)
 * Prototype board
   [AliExpress](http://www.aliexpress.com/item/15Pcs-Baklite-Copper-Plated-Prototype-PCB-Board-Veroboard-7cmx5cm/32305273104.html)
+* As you like: (RGB-)LED, Resistors for the LEDs 
 
 
 # Software requirements
