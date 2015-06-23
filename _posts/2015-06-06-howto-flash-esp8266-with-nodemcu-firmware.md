@@ -18,6 +18,9 @@ tags: ["howto", "esp8266", "lua", "hardware", "flashing"]
 ## Optional but helpful and recommended
 * ESP-12 breakout board
   [AliExpress](http://www.aliexpress.com/item/10pcs-ESP8266-serial-WIFI-module-adapter-plate-Applies-to-ESP-07-ESP-08-ESP-12/32277240271.html)
+* alternative to LM1117 that can be put on the back of the ESP breakout board: XC6206P332PR (50pcs is smallest available
+  package size)
+[AliExpress](http://www.aliexpress.com/item/Free-Shipping-50PCS-XC6206P332PR-XC6206P-3-3V-SOT89/32345664503.html)
 * breadboard starter set [AliExpress](http://www.aliexpress.com/item/MB102-Power-Supply-Module-3-3V-5V-MB102-Breadboard-830-Point-Jumper-cables/32259571737.html)
 
 ## Sensors
@@ -27,8 +30,10 @@ tags: ["howto", "esp8266", "lua", "hardware", "flashing"]
   [AliExpress](http://www.aliexpress.com/item/SHINYEI-dust-sensor-PPD42NS-PPD4NS-PPD42NJ-dust-sensor-with-cable/32305336628.html)
 
 ## "Chicken food" (small stuff around to make it work, like resistors, cables, etc)
-* Header Pins
+* Male Header Pins
   [AliExpress](http://www.aliexpress.com/item/Hot-Sale10pcs-40-Pin-1x40-Single-Row-Male-2-54-Breakable-Pin-Header-Connector-Strip-for/32254389928.html)
+* Female Headers
+  [AliExpress](http://www.aliexpress.com/item/Free-shppping-3200pin-1x40-Pin-2-54mm-Single-Row-Female-Pin-Header-Connector-80PCS-LOT/32287336973.html)
 * Prototype board
   [AliExpress](http://www.aliexpress.com/item/15Pcs-Baklite-Copper-Plated-Prototype-PCB-Board-Veroboard-7cmx5cm/32305273104.html)
 
