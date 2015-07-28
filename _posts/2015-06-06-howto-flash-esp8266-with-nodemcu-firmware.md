@@ -42,18 +42,15 @@ More soldering than option 1, but more DIY
 
 ## Suitable for both options
 
-### Recommended
-* breadboard starter set [AliExpress](http://s.click.aliexpress.com/e/aMnaQzv7Q?af=717073896)
-
 ### Sensors
 * DHT22 temperature and humidity sensor [AliExpress](http://s.click.aliexpress.com/e/rnuvFMrny?af=717073896)
 * Dust sensor [AliExpress](http://s.click.aliexpress.com/e/m6Q7emu7Q?af=717073896)
 * Door/Window reed contacts [AliExpress](http://s.click.aliexpress.com/e/F6UnMFU7Q?af=717073896) 
 
-### "Chicken food"
+### Additional stuff to make it work
+Stuff around to make it work, like resistors, cables, etc. Choose what you think suits your needs.
 
-Small stuff around to make it work, like resistors, cables, etc. Choose what you think suits your needs.
-
+* breadboard starter set [AliExpress](http://s.click.aliexpress.com/e/aMnaQzv7Q?af=717073896)
 * Male Header Pins [AliExpress](http://s.click.aliexpress.com/e/6eAqjMJeU?af=717073896)
 * Female Headers [AliExpress](http://s.click.aliexpress.com/e/UjyZRJ2ji?af=717073896)
 * Prototype board [AliExpress](http://s.click.aliexpress.com/e/IUrzn2nMr?af=717073896)
