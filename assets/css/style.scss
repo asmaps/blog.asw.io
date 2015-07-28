@@ -73,14 +73,16 @@ article {
     }
 
     h3 {
-        $fontsize: $h6-fontsize*1.35; 
+        $fontsize: $h6-fontsize*1.4; 
         font-size: $fontsize;
         line-height: $fontsize*1.1;
         margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
     }
 
     h2 {
-        $fontsize: $h6-fontsize*1.5; 
+        display:table;
+        border-bottom: 1px dashed lighten($primary-color, 25%);
+        $fontsize: $h6-fontsize*1.7; 
         font-size: $fontsize;
         line-height: $fontsize*1.1;
         margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
@@ -88,9 +90,9 @@ article {
 
     h1 {
         border-bottom: 1px solid lighten($primary-color, 25%);
-        $fontsize: $h6-fontsize*1.7; 
+        $fontsize: $h6-fontsize*2.1; 
         font-size: $fontsize;
         line-height: $fontsize*1.1;
-        margin: ($fontsize / 2) 2rem ($fontsize / 2.5) 0;
+        margin: ($fontsize / 2) 0 ($fontsize / 2.5) 0;
     }
 }
