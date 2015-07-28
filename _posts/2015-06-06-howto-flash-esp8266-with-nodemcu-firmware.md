@@ -35,8 +35,6 @@ More soldering than option 1, but more DIY
 ### 2.2: Recommended
 * 4.7 µF capacitors to buffer variations in power usage [AliExpress (set of a few different
   sizes including 4.7µF)](http://s.click.aliexpress.com/e/vnIamMVZB?af=717073896)
-
-### 2.3: Optional but helpful and recommended
 * ESP-12 breakout board
   [AliExpress](http://s.click.aliexpress.com/e/iiuJunIUN?af=717073896)
 * alternative to LM1117 that can be put on the back of the ESP breakout board: XC6206P332PR (50pcs is smallest available
