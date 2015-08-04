@@ -57,7 +57,8 @@ Stuff around to make it work, like resistors, cables, etc. Choose what you think
 * WS2812B RGB LED with integrated PWM controller [AliExpress](http://s.click.aliexpress.com/e/vrFiM3bi2?af=717073896)
 * Connectors (2 pin) [AliExpress](http://s.click.aliexpress.com/e/UzJuzfy7M?af=717073896)
 * Connectors (4 pin) [AliExpress](http://s.click.aliexpress.com/e/FiUzfa2nA?af=717073896)
-* As you like: more/other LEDs, Resistor(-Set)s, buttons, cables, ...
+* Resistor Set [AliExpress](http://s.click.aliexpress.com/e/uvrRbQRNJ?af=717073896)
+* As you like: more/other LEDs, buttons, cables, ...
 
 
 # Software requirements
