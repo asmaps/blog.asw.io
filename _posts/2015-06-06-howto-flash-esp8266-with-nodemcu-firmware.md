@@ -72,7 +72,31 @@ Check out the following repos (git):
 
 # Connecting everything
 
-TBD
+## With the NodeMCU dev board
+
+If you have the devboard just connect a micro usb cable and your ready to go.
+
+## With the white breakout board
+
+Solder the ESP on your board.
+
+### Without XC6206P332PR (small voltage regulator on the back of the board)
+
+Measure the resitor in the middle below the ESP between VCC and GND, it should be a zero resitor/bridge => 0 Ohm. There are
+some boards that have a wrong part there: a 10k Ohm. If you have that you need to remove that resistor and bridge it
+with something else (small cable, solder, ...).  
+You will need to connect VCC of the board to 3.3V now.
+
+### With XC6206P332PR
+
+Remove the resistor in the middle below the ESP between VCC and GND. Then solder the XC6206P332PR onto the back of the
+white board.
+You can now connect up to 6V to VCC and it will be regulated to 3.3V. (Minimum voltage needed has to be more than 3.3V)
+
+### Connecting with the white board
+With the white breakout board you have to connect GND, VCC (voltage depends on if you have XC6206P332PR), RX and TX of
+your serial cable to flash the ESP. Also to enter flash mode you have to pull down GPIO0 to GND during startup
+(just connect it).
 
 # Flashing
 
