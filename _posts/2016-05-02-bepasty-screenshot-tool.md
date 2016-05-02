@@ -23,6 +23,7 @@ sudo pip install -e git+https://github.com/bepasty/bepasty-client-cli.git#egg=be
 ```
 
 I tested with `3080f88bf13917b00b65a7210c7fe8c3efeeeb0c` in branch master. To install that specific version run:
+
 ```bash
 # optional
 pip install -e git+https://github.com/bepasty/bepasty-client-cli.git@3080f88bf13917b00b65a7210c7fe8c3efeeeb0c#egg=bepasty_client_cli
