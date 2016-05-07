@@ -26,3 +26,8 @@ tags: ["quadcopter", "fun", "hardware"]
 
 * [Remote control with receiver](http://www.amazon.de/Graupner-S1002-12-Fernsteuerung-mz-12-6-Kanal/dp/B00YCQK1WU)
 * [LiPo safe bag](http://www.amazon.de/Andoer-St%C3%BCck-Qualit%C3%A4t-Battery-Safety/dp/B00R7Q325K)
+
+
+## Also required, but I didn't choose one now
+
+* Battery charger
