@@ -15,11 +15,11 @@ tags: ["quadcopter", "fun", "hardware"]
 
 ## [HobbyKing](https://www.hobbyking.com/)
 
-* [Flightcontroller](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=96843)
-* 4x [Battery pack(s)](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=32654)
-* 2x [Battery monitoring](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=41733)
-* [More battery monitoring](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=74028)
-* lots [More props](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=99538)
+* [Flightcontroller](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=96843&whl=EUR)
+* 4x [Battery pack(s)](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=32654&whl=EUR)
+* 2x [Battery monitoring](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=41733&whl=EUR)
+* [More battery monitoring](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=74028&whl=EUR)
+* lots [More props](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=99538&whl=EUR)
 
 
 ## [Amazon](https://www.amazon.de/)
