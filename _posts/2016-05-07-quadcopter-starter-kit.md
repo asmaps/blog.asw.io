@@ -20,6 +20,7 @@ tags: ["quadcopter", "fun", "hardware"]
 * 2x [Battery monitoring](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=41733&whl=EUR)
 * [More battery monitoring](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=74028&whl=EUR)
 * lots [More props](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=99538&whl=EUR)
+* lots [better props](http://www.hobbyking.com/hobbyking/store/uh_viewitem.asp?idproduct=97770&whl=EUR)
 
 
 ## [Amazon](https://www.amazon.de/)
