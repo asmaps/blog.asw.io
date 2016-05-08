@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quadcopter starter kit"
-description: "How to get started with quadcoptering for ~300€"
+description: "How to get started with quadcoptering for less than 400€"
 category: quadcopter
 tags: ["quadcopter", "fun", "hardware"]
 ---
