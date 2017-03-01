@@ -16,7 +16,7 @@ So installing with pip is the way to go. To do that follow these steps.
 sudo apt-get install python3-pip python3-xcffib python3-cairocffi libcairo2 libxcb-render0-dev libffi-dev libpangocairo-1.0-0 python-dbus
 
 # install qtile
-sudo pip3 qtile
+sudo pip3 install qtile
 
 ```
 
